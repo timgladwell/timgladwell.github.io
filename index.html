@@ -9,7 +9,7 @@
   <!-- Open Graph for link previews -->
   <meta property="og:title" content="Tim Gladwell — Staff Software Engineer">
   <meta property="og:description" content="Staff software engineer with experience working at scale.">
-  <meta property="og:image" content="https://www.gravatar.com/avatar/b6a824b1e90bdd9873fc8304fcbc7df3?s=400">
+  <meta property="og:image" content="https://timgladwell.com/avatar.jpg">
   <meta property="og:url" content="https://timgladwell.com">
   <link rel="canonical" href="https://timgladwell.com">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧑‍💻</text></svg>">
@@ -19,7 +19,7 @@
     "@type": "Person",
     "name": "Tim Gladwell",
     "url": "https://timgladwell.com",
-    "image": "https://www.gravatar.com/avatar/b6a824b1e90bdd9873fc8304fcbc7df3?s=400",
+    "image": "https://timgladwell.com/avatar.jpg",
     "jobTitle": "Staff Software Engineer",
     "sameAs": [
       "https://www.linkedin.com/in/tim-gladwell",
@@ -31,6 +31,7 @@
     body {
       font-family: system-ui, sans-serif;
       max-width: 600px;
+      min-width: 250px;
       margin: 80px auto;
       padding: 0 20px;
       color: #222;
@@ -53,12 +54,14 @@
   </style>
 </head>
 <body>
-  <img src="https://www.gravatar.com/avatar/b6a824b1e90bdd9873fc8304fcbc7df3?s=120" width="120" height="120" alt="Tim Gladwell">
-  <h1>Tim Gladwell</h1>
-  <p class="tagline">Staff software engineer with experience working at scale.</p>
-  <nav>
-    <a href="https://www.linkedin.com/in/tim-gladwell">LinkedIn</a>
-    <a href="https://github.com/timgladwell">GitHub</a>
-  </nav>
+  <main>
+    <img src="avatar.jpg" width="120" height="120" alt="Tim Gladwell" fetchpriority="high">
+    <h1>Tim Gladwell</h1>
+    <p class="tagline">Staff software engineer with experience working at scale.</p>
+    <nav>
+      <a href="https://www.linkedin.com/in/tim-gladwell">LinkedIn</a>
+      <a href="https://github.com/timgladwell">GitHub</a>
+    </nav>
+  </main>
 </body>
 </html>
